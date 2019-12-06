@@ -9,6 +9,6 @@ def prime?(int)
     
     return true
   else
-    return false
+    puts "Be sure to account for negative numbers!"
   end 
 end
