@@ -9,6 +9,6 @@ def prime?(int)
     
     return true
   else
-    puts "Be sure to account for negative numbers!"
+    puts "#{int}, Be sure to account for negative numbers!"
   end 
 end
