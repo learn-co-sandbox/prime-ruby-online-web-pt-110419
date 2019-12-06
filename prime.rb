@@ -1,4 +1,5 @@
 require 'pry'
+require 'prime'
 # Add  code here!
 def prime?(int)
   #binding.pry
