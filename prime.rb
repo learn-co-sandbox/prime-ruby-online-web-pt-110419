@@ -3,9 +3,9 @@ require 'pry'
 def prime?(int)
   #binding.pry
   if int < 1
-    return false
-  else 
     return true
+  else 
+    return false
   
   end 
 end
