@@ -7,7 +7,8 @@ def prime?(int)
     return true
   elsif int < 0
     
+    return true
+  else
     return false
-  
   end 
 end
