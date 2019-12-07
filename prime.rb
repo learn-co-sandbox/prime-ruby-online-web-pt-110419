@@ -18,4 +18,3 @@ def prime?(int)
   (2..int-1).to_a.all? {|a| int % a != 0}
   end
 end
-end
