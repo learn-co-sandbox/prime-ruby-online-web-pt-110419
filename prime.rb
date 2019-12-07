@@ -15,7 +15,7 @@ def prime?(int)
     return false
   else
     
-  a =  (2..int - 1).to_a
+  a =  (2..int-1).to_a
   binding.pry
   end
 end
