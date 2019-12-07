@@ -15,7 +15,7 @@ def prime?(int)
     return false
   else
     
-  a =  (2..int-1).to_a
-  binding.pry
+  (2..int-1).to_a.all? {|a| int % a != 0}
   end
+end
 end
