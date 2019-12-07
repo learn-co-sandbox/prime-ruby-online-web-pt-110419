@@ -2,7 +2,7 @@ require 'pry'
 require 'prime'
 # Add  code here!
 def prime?(int)
-  #binding.pry
+ binding.pry
   #if int > 0
     #return true
   # elsif int < 0
@@ -14,6 +14,6 @@ def prime?(int)
   if int < 0 || int == 0 || int == 1
     return false
   else 
-    return true
+    (2..int - 1).to_a
   end
 end
